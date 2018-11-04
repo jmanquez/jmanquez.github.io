@@ -1,13 +1,13 @@
 # Site settings
-title:          Jaime
-description:    "Aprendizaje Automático"
+title:          Jaime M.
+description:    "Personal Website"
 #baseurl:        "/tale"
 #url:            "https://jmanquez.cl"
 
 # Author
 author:
   name:         Jaime Mánquez
-  url:          https://jmanquez.cl
+  url:          https://jmanquez.github.io
   email:        j.manquez@gmail.com
 
 # Build settings

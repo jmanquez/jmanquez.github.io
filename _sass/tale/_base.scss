@@ -1,6 +1,6 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 html,
@@ -12,11 +12,11 @@ body {
 
 html {
   font-family: $serif-primary;
-  font-size: 14px;
+  font-size: 16px;
   overflow-y: scroll;
 
   @media (min-width: 600px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -66,14 +66,14 @@ td {
 }
 #u_post{
    list-style-type: none;
-   margin: 0;
+   margin: 2mm;
    padding: 0;
 }
 
 #spd{
   position: absolute;
   font-size: 10px;
-  color: #DCDCDC;
+  color: ##4B494D;
   right: 150px;
   width: 200px;
   height: 120px;
