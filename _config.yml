@@ -1,0 +1,29 @@
+# Site settings
+title:          Jaime
+description:    "Aprendizaje Automático"
+#baseurl:        "/tale"
+#url:            "https://jmanquez.cl"
+
+# Author
+author:
+  name:         Jaime Mánquez
+  url:          https://jmanquez.cl
+  email:        j.manquez@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       3
