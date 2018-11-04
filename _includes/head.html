@@ -2,14 +2,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% if page.title == "Home" %}
-    <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}">
   {% endif %}
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+    {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
@@ -19,15 +19,19 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon.png" | relative_url }}">
-<!--
+  <!--
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
 -->
-  <!-- RSS -->
-  {% feed_meta %}
-  <!-- Google Analytics -->
-  {% if jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
+<!-- RSS -->
+{% feed_meta %}
+<!-- Google Analytics -->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+<!-- Librerias para insertar formulas en LATEX -->
+<!-- Just one possible MathJax CDN below. You may use others. -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 </head>
