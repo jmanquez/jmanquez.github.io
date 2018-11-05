@@ -40,6 +40,10 @@ Donde:
 
 Cómo se puede apreciar en el gráfico XX existe una tendencia a la baja en términos deserción a nivel país, Chile tiene unas de las tasas más bajas a nivel de Latinoamérica, sin embargo, para el año 2017 se registraron 85.901 estudiantes desertaron del sistema escolar. Dado el impacto y las consecuencias que generan la no continuidad de los estudios a nivel escolar es importante poner el énfasis en esta problemática.
 
-![Deserción años](/assets/img/desercion/unnamed-chunk-2-1.png)
+<figure class="figure">
+  <img src="/assets/img/desercion/unnamed-chunk-2-1.png" class="figure-img img-fluid mx-auto" alt="Deserción por años">
+</figure>
 
+<!--![Deserción años](/assets/img/desercion/unnamed-chunk-2-1.png)
+-->
 {% include_relative /desercion/tables/table1.html %}
