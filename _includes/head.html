@@ -1,28 +1,30 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page.title == "Home" %}
+<meta name="description" content="{{ site.description }}">
+{% endif %}
+
+<title>
   {% if page.title == "Home" %}
-  <meta name="description" content="{{ site.description }}">
+  {{ site.title }}
+  {% else %}
+  {{ page.title }} &middot; {{ site.title }}
   {% endif %}
+</title>
+<!-- Boostrap :) -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>
-    {% if page.title == "Home" %}
-    {{ site.title }}
-    {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+<!-- CSS -->
+<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon.png" | relative_url }}">
-  <!--
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon.png" | relative_url }}">
+<!--
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
 -->
 <!-- RSS -->
 {% feed_meta %}
@@ -34,5 +36,6 @@
 <!-- Just one possible MathJax CDN below. You may use others. -->
 <!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>-->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML' async></script>
-
+<!-- Asegurnado sitio responsive en todos los dispositivos-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>

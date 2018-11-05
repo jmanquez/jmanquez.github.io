@@ -2,25 +2,22 @@
 layout: default
 ---
 
-<div class="catalogue">
-  <ul id="u_post">
-    {% for post in site.posts %}
-      <li>
-        <a id="a_post" href="{{ post.url }}">{{ post.title }}</a> <span id="spd"> {{ post.date | date_to_string }} </span>
+  {% for post in site.posts %}
 
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="row">
+        <div class="col-8"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="col-4">{{ post.date | date_to_string }}</div>
+      </div>
 
-</div>
+  {% endfor %}
 <!--
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
+{% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+{% endif %}
+{% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+{% endif %}
 
-  <span>{{ paginator.page }}</span>
+<span>{{ paginator.page }}</span>
 </div>-->
