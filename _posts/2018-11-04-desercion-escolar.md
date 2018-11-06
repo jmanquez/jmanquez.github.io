@@ -3,7 +3,9 @@ layout: post
 title: "Deserción Escolar"
 author: "Jaime"
 ---
-A pesar de todos lo inconvenientes del modelo educativo actual, es sabido el impacto y la importancia de finalizar los estudios de nivel escolar en el sentido del desarrollo del individuo y para la sociedad. Sin embargo, aún se tiene a niños y jóvenes desertando del sistema escolar, en este documento se intenta visibilizar la deserción en el país en términos descriptivos, por grado o curso, a nivel regional y nacional, utilizando los 3 últimos años 2015, 2016 y 2017.
+La educación en Chile ha sufrido una serie de reformas con el fin de asegurar una educación de calidad. Una de estas reformas tiene relación con el derecho de todos los individuos de completar la enseñanza media, decretándose obligatoria y gratuita en el año 2013, esto implica que el estado debe asegurar una educación inclusiva y de calidad, promoviendo que se den las condiciones necesarias para el acceso y permanencia en el sistema educativo.
+
+Sin embargo, aún se tiene una gran cantidad de estudiantes desertando del sistema escolar, según cifras del MINEDUC en el año 2011 se registraron 91.968 desertores equivalente a un 3% del sistema regular (niños, niñas y jóvenes)[1].
 
 ### El indicador de deserción
 
@@ -49,12 +51,14 @@ Cómo se puede apreciar en el gráfico XX existe una tendencia a la baja en tér
 
 ### Deserción por grados o curso
 
-La deserción en el año 2017 muestra una leve tendencia a la baja, según se puede ver en la gráfica xx. En enseñanza básica la deserción mantiene un patrón lineal hasta 5to básico con un leve aumento en 6to y 7mo y con una pequeña baja en 8vo, variando entre 1,5% y 2,5%. Sin embargo, en la transición de la enseñanza básica a media se genera un aumento considerable, en el caso del año 2017 se pasa de una tasa de deserción de un 2,1% que representa a 5.243 desertores de 8vo básico a un 7,6% que representa a 21.213 estudiantes desertores de 1 medio. Esto aumento puede deberse a diversos motivos (cambio de colegio por no contar enseñase media), nuevos profesores y compañeros, trabajo etc.. desarrollar ideas y apoyar con referencias bibliográficas. Sin embargo, es parte de este estudio poder identificar los factores que inciden en este aumento de la deserción y poder utilizarlos como características a considerar en un modelo predictivos de deserción.
+La deserción en el año 2017 muestra una leve tendencia a la baja, según se puede ver en la gráfica 1. En enseñanza básica la deserción mantiene un patrón lineal hasta 5to básico con un leve aumento en 6to y 7mo y con una pequeña baja en 8vo, variando entre 1,5% y 2,5%. Sin embargo, en la transición de la enseñanza básica a media se genera un aumento considerable, en el caso del año 2017 se pasa de una tasa de deserción de un 2,1% que representa a 5.243 desertores de 8vo básico a un 7,6% que representa a 21.213 estudiantes desertores de 1 medio. Esto aumento puede deberse a diversos motivos (cambio de colegio por no contar enseñase media), nuevos profesores y compañeros, trabajo etc.. desarrollar ideas y apoyar con referencias bibliográficas. Sin embargo, es parte de este estudio poder identificar los factores que inciden en este aumento de la deserción y poder utilizarlos como características a considerar en un modelo predictivos de deserción.
 
 En enseñanza media se tiene una tasa de un 7,6% en 1 medio, disminuye a un 4,5% en 2do, vuelve a aumenta en un 7,5% en 3ro y disminuye nuevamente en 4 medio con 3,4% (la cantidad de desertores en cada grado y la matrícula correspondiente se puede ver en el a tabla xx)
 
 <figure class="figure">
   <img src="/assets/img/desercion/des_agno_grado-1.png" class="figure-img img-fluid mx-auto" alt="Deserción por grado y años">
+  <figcaption class="figure-caption text-center"> Gráfico 1 .</figcaption>
+
 </figure>
 
 {% include_relative /desercion/tables/table2.html %}
