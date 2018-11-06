@@ -9,7 +9,7 @@ Sin embargo, aún se tiene una gran cantidad de estudiantes desertando del siste
 
 ### El indicador de deserción
 
-El MINEDUC utiliza dos medidas para calcular la deserción, la tasa de incidencia y de prevalencia, estas dos medidas consideran dos indicadores cada una, la deserción regular (niños y jóvenes) y otra que mide la deserción global (incluye la educación para adultos). Para al cálculo del indicador se escogió la tasa de incidencia de sistema regular [@MINEDUC2013].
+El MINEDUC utiliza dos medidas para calcular la deserción, la tasa de incidencia y de prevalencia, estas dos medidas consideran dos indicadores cada una, la deserción regular (niños, niñas y jóvenes) y otra que mide la deserción global (incluye la educación para adultos). Para al cálculo del indicador se escogió la tasa de incidencia de sistema regular [@MINEDUC2013].
 
 **La tasa de incidencia**: Mide la deserción evaluando la transición de un año a otro, es decir, si presenta matrícula en el año 2016 y no aparece en los registros de matrícula el 2017 (y que no se graduó) se considera desertor.
 
@@ -52,7 +52,7 @@ Cómo se puede apreciar en el gráfico 1 existe una tendencia a la baja en térm
 
 ### Deserción por grados o curso
 
-La deserción en el año 2017 muestra una leve tendencia a la baja en comparación a los últimos tres años, ver gráfica 2. En enseñanza básica la deserción mantiene un patrón lineal hasta 5to básico con un leve aumento en 6º y 7º y con una pequeña baja en 8º, variando entre 1,5% y 2,5%. Sin embargo, en la transición de la enseñanza básica a media se genera un aumento considerable, en el caso del año 2017 se pasa de una tasa de deserción de un 2,1% que representa a 5.243 desertores de 8º básico a un 7,6% que representa a 21.213 estudiantes desertores de 1 medio. Este aumento puede deberse a diversos factores exógenos y endógenos.
+La deserción en el año 2017 muestra una leve tendencia a la baja en comparación a los últimos tres años, ver gráfica 2. En enseñanza básica la deserción mantiene un patrón continuo estable hasta 5to básico con un leve aumento en 6º y 7º y con una pequeña baja en 8º, variando entre 1,5% y 2,5%. Sin embargo, en la transición de la enseñanza básica a media aumenta considerablemente la tasa, en el caso del año 2017 se pasa de una tasa de deserción de un 2,1% que representa a 5.243 desertores de 8º básico a un 7,6% que representa a 21.213 estudiantes desertores de 1 medio. Este aumento puede deberse a diversas causas o factores.
 
 En enseñanza media se tiene una tasa de un 7,6% en 1º medio, disminuye a un 4,5% en 2º, vuelve a aumenta en un 7,5% en 3º y disminuye nuevamente en 4º medio con 3,4% (la cantidad de desertores en cada grado y la matrícula correspondiente se puede ver en el a tabla 2)
 
