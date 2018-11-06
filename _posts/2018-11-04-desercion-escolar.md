@@ -43,6 +43,7 @@ Cómo se puede apreciar en el gráfico XX existe una tendencia a la baja en tér
 
 <figure class="figure">
   <img src="/assets/img/desercion/des_agnos-1.png" class="figure-img img-fluid mx-auto" alt="Deserción por años">
+    <figcaption class="figure-caption text-center"> Gráfico 1 - Deserción por año .</figcaption>
 </figure>
 
 <!--![Deserción años](/assets/img/desercion/unnamed-chunk-2-1.png)
@@ -57,8 +58,7 @@ En enseñanza media se tiene una tasa de un 7,6% en 1 medio, disminuye a un 4,5%
 
 <figure class="figure">
   <img src="/assets/img/desercion/des_agno_grado-1.png" class="figure-img img-fluid mx-auto" alt="Deserción por grado y años">
-  <figcaption class="figure-caption text-center"> Gráfico 1 .</figcaption>
-
+  <figcaption class="figure-caption text-center"> Gráfico 2 - Deserción por año y grado .</figcaption>
 </figure>
 
 {% include_relative /desercion/tables/table2.html %}
@@ -67,6 +67,7 @@ En enseñanza media se tiene una tasa de un 7,6% en 1 medio, disminuye a un 4,5%
 
 <figure class="figure">
   <img src="/assets/img/desercion/des_region-1.png" class="figure-img img-fluid mx-auto" alt="Deserción Regional">
+    <figcaption class="figure-caption text-center"> Gráfico 3 - Deserción por Región .</figcaption>
 </figure>
 
 {% include_relative /desercion/tables/table3.html %}
