@@ -5,7 +5,7 @@ author: "Jaime"
 ---
 La educación en Chile ha sufrido una serie de reformas con el fin de asegurar una educación de calidad. Una de estas reformas tiene relación con el derecho de todos los individuos de completar la enseñanza media, decretándose obligatoria y gratuita en el año 2013, esto implica que el estado debe asegurar una educación inclusiva y de calidad, promoviendo que se den las condiciones necesarias para el acceso y permanencia en el sistema educativo.
 
-Sin embargo, aún se tiene una gran cantidad de estudiantes desertando del sistema escolar, según cifras del MINEDUC en el año 2011 se registraron 91.968 desertores equivalente a un 3% del sistema regular (niños, niñas y jóvenes)[1].
+Sin embargo, aún se tiene una gran cantidad de estudiantes desertando del sistema escolar, según cifras del MINEDUC la tasa de deserción regular para el año 2017, que considera la educación de niñas, niños y jóvenes registro un 2,5% equivalente a 74.105 estudiantes fuera del sistema escolar.
 
 ### El indicador de deserción
 
