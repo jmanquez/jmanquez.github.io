@@ -12,23 +12,21 @@ En el primer ejemplo visualizaremos los datos de matrícula escolar, a trabes de
 <div id="viz"></div>
 
 <script>
-  // sample data array
-  var sample_data = [
-    {"value": 100, "name": "alpha"},
-    {"value": 70, "name": "beta"},
-    {"value": 40, "name": "gamma"},
-    {"value": 15, "name": "delta"},
-    {"value": 5, "name": "epsilon"},
-    {"value": 1, "name": "zeta"}
+var sample_data = [
+    {"value": 100, "name": "Iquique", "group": "Región I"},
+    {"value": 70, "name": "Antofagasta", "group": "Región II"},
+    {"value": 40, "name": "Santa Elena", "group": "Región II"},
+    {"value": 15, "name": "Calama", "group": "Región II"},
+    {"value": 5, "name": "Alto Hospicio", "group": "Región I"},
+    {"value": 1, "name": "Huara", "group": "Región I"}
   ]
-  // instantiate d3plus
   var visualization = d3plus.viz()
-    .container("#viz")  // container DIV to hold the visualization
-    .data(sample_data)  // data to use with the visualization
-    .type("tree_map")   // visualization type
-    .id("name")         // key for which our data is unique on
-    .size("value")      // sizing of blocks
-    .draw()             // finally, draw the visualization!
+    .container("#viz")
+    .data(sample_data)
+    .type("tree_map")
+    .id(["group","name"])
+    .size("value")
+    .draw()
 </script>
 
 
