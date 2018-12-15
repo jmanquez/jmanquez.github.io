@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualización de datos Educación"
+title: "Visualización de datos en Educación"
 author: "Jaime"
 ---
 Se presenta algunas visualizaciones, con el fin de poder transmitir de manera distinta datos en el contexto educacional, utilizando la librería de javascript [D3plus](https://d3plus.org/).
