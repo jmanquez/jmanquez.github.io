@@ -29,34 +29,26 @@ Los digagramas de Sankey...
 <div id="viz2"></div>
 <script>
 var nodes = [
-  {"id": "Alto"},
-  {"id": "Medio"},
-  {"id": "Medio-Bajo"},
-  {"id": "Insuficiente"}
-
-];
-var edges = [
-  {"strength": 2, "source": 0, "target": 1},
-  {"strength": 1, "source": 1, "target": 2},
-  {"strength": 1, "source": 2, "target": 3},
-  {"strength": 3, "source": 3, "target": 1}
+  {id: "alpha"},
+  {id: "beta"},
+  {id: "gamma"},
+  {id: "epsilon"},
+  {id: "zeta"},
+  {id: "theta"}
 ];
 
+var links = [
+  {source: "alpha", target: "beta"},
+  {source: "alpha", target: "gamma"},
+  {source: "epsilon", target: "zeta"},
+  {source: "epsilon", target: "theta"},
+  {source: "theta", target: "alpha"}
+];
 
-var visualization = d3plus.viz()
-    .container("#viz2")
-    .edges({
-      "strength": "strength",
-      "value": edges
-    })
-    .focus({
-      "tooltip": false,
-      "value": "gamma"
-    })
-    .id("id")
-    .nodes(nodes)
-    .size(100)
-    .type("sankey")
-    .draw();
+
+var visualization = d3plus.Sankey()
+.links(links)
+.nodes(nodes)
+.render();
 
 </script>
