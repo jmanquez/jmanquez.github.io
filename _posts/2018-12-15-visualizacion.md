@@ -29,21 +29,17 @@ Los digagramas de Sankey...
 <div id="viz2"></div>
 <script>
 var nodes = [
-  {id: "alpha"},
-  {id: "beta"},
-  {id: "gamma"},
-  {id: "epsilon"},
-  {id: "zeta"},
-  {id: "theta"}
+  {"id": "alpha"},
+  {"id": "beta"},
+  {"id": "gamma"}
+];
+var edges = [
+  {"strength": 2, "source": 0, "target": 2},
+  {"strength": 1, "source": 1, "target": 2},
+  {"strength": 1, "source": 2, "target": 0},
+  {"strength": 3, "source": 2, "target": 1}
 ];
 
-var links = [
-  {source: "alpha", target: "beta"},
-  {source: "alpha", target: "gamma"},
-  {source: "epsilon", target: "zeta"},
-  {source: "epsilon", target: "theta"},
-  {source: "theta", target: "alpha"}
-];
 
 var visualization = d3plus.viz()
     .container("#viz2")
