@@ -46,6 +46,7 @@ var links = [
 ];
 
 new d3plus.Sankey()
+  .container("#viz2")
   .links(links)
   .nodes(nodes)
   .render();
