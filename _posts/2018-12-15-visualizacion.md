@@ -45,20 +45,9 @@ var links = [
   {source: "theta", target: "alpha"}
 ];
 
-
-var visualization = d3plus.viz()
-    .container("#viz2")
-    .edges({
-      "strength": "strength",
-      "value": links
-    })
-    .focus({
-      "tooltip": false,
-      "value": "gamma"
-    })
-    .id("id")
-    .nodes(nodes)
-    .type("sankey")
-    .draw();
+new d3plus.Sankey()
+  .links(links)
+  .nodes(nodes)
+  .render();
 
 </script>
