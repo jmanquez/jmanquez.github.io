@@ -24,4 +24,39 @@ En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wi
 
 ### Categorias de Desempeño con Diagrama de Sankey.
 
-Categorias de Desempeño y Diagramas Sankey
+Categorias de Desempeño y Diagramas Sankey...
+
+<div id="viz2"></div>
+<script>
+  var var nodes = [
+    /*CDB 2018*/
+    {"id": "2018"},
+    {"id": "Alto"},
+    {"id": "Medio"},
+    {"id": "Medio-Bajo"},
+    {"id": "Insuficiente"}
+  ];
+  var edges = [
+  {"strenght": 1,  "source": 0, "target": 1},
+  {"strenght": 1,  "source": 0, "target": 2},
+  {"strenght": 1,  "source": 0, "target": 3},
+  {"strenght": 1,  "source": 0, "target": 4},
+  {"strenght": 1,  "source": 0, "target": 5}
+  ];
+
+  var visualization = d3plus.viz()
+    .container("#viz2")
+    .edges({
+      "strength": "strength",
+      "value": edges
+    })
+    .focus({
+      "tooltip": false,
+      "value": "2018"
+    })
+    .id("id")
+    .nodes(nodes)
+    .size(100)
+    .type("sankey")
+    .draw();
+</script>
