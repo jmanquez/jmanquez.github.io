@@ -20,7 +20,7 @@ var sample_data = [
     {"value": 90, "name": "Santa Elena", "group": "Región II"},
     {"value": 180, "name": "Calama", "group": "Región II"},
     {"value": 150, "name": "Atacama", "group": "Región III"},
-    {"value": 70, "name": "Vallenar", "group": "Región III"}
+    {"value": 90, "name": "Vallenar", "group": "Región III"}
   ]
   var visualization = d3plus.viz()
     .container("#viz")
