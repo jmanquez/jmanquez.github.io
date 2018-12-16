@@ -11,22 +11,15 @@ En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wi
 <div id="viz"></div>
 
 
-
-
 <script>
-$.getJSON({{site.data.matricula | jsonify}}, function(json) {
-  data = json,
-  success = function(data){
-    var visualization = d3plus.viz()
-      .container("#viz")
-      .data(data)
-      .type("tree_map")
-      .id(["REGION","COMUNA"])
-      .size("MATRICULA")
-      .format("es_ES")
-      .draw()
-   }
-})
+  var visualization = d3plus.viz()
+    .container("#viz")
+    .data({{site.data.matricula | jsonify}})
+    .type("tree_map")
+    .id(["REGION","COMUNA"])
+    .size("MATRICULA")
+    .format("es_ES")
+    .draw()
 </script>
 
 
