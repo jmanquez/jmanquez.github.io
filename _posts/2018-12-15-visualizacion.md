@@ -1752,7 +1752,6 @@ var sample_data = [
     .id(["REGION","COMUNA"])
     .size("MATRICULA")
     .format("es_ES")
-
     .draw()
 </script>
 
