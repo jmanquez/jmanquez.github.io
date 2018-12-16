@@ -28,7 +28,7 @@ Categorias de Desempeño y Diagramas Sankey...
 
 <div id="viz2"></div>
 <script>
-  var var nodes = [
+  var nodes = [
     /*CDB 2018*/
     {"id": "2018"},
     {"id": "Alto"},
