@@ -29,15 +29,17 @@ Los digagramas de Sankey...
 <div id="viz2"></div>
 <script>
 var nodes = [
-  {"id": "alpha"},
-  {"id": "beta"},
-  {"id": "gamma"}
+  {"id": "Alto"},
+  {"id": "Medio"},
+  {"id": "Medio-Bajo"},
+  {"id": "Insuficiente"}
+
 ];
 var edges = [
-  {"strength": 2, "source": 0, "target": 2},
+  {"strength": 2, "source": 0, "target": 1},
   {"strength": 1, "source": 1, "target": 2},
-  {"strength": 1, "source": 2, "target": 0},
-  {"strength": 3, "source": 2, "target": 1}
+  {"strength": 1, "source": 2, "target": 3},
+  {"strength": 3, "source": 3, "target": 1}
 ];
 
 
