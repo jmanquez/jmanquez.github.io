@@ -1743,7 +1743,7 @@ var sample_data = [
     "MATRICULA": 50,
     "REGION": "Región 15"
   }
-] 
+]
 
   var visualization = d3plus.viz()
     .container("#viz")
@@ -1751,6 +1751,8 @@ var sample_data = [
     .type("tree_map")
     .id(["REGION","COMUNA"])
     .size("MATRICULA")
+    .format("es_ES")
+
     .draw()
 </script>
 
