@@ -13,12 +13,14 @@ En el primer ejemplo visualizaremos los datos de matrícula escolar, a trabes de
 
 <script>
 var sample_data = [
-    {"value": 100, "name": "Iquique", "group": "Región I"},
-    {"value": 70, "name": "Antofagasta", "group": "Región II"},
-    {"value": 40, "name": "Santa Elena", "group": "Región II"},
-    {"value": 15, "name": "Calama", "group": "Región II"},
-    {"value": 5, "name": "Alto Hospicio", "group": "Región I"},
-    {"value": 1, "name": "Huara", "group": "Región I"}
+    {"value": 500, "name": "Iquique", "group": "Región I"},
+    {"value": 200, "name": "Alto Hospicio", "group": "Región I"},
+    {"value": 90, "name": "Huara", "group": "Región I"},
+    {"value": 1000, "name": "Antofagasta", "group": "Región II"},
+    {"value": 90, "name": "Santa Elena", "group": "Región II"},
+    {"value": 180, "name": "Calama", "group": "Región II"},
+    {"value": 150, "name": "Atacama", "group": "Región III"},
+    {"value": 70, "name": "Vallenar", "group": "Región III"}
   ]
   var visualization = d3plus.viz()
     .container("#viz")
