@@ -12,7 +12,7 @@ En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wi
 
 <script>
 d3.json({{site.data.matricula | jsonify}}, function(data) {
-  make_viz(matricula);
+  make_viz(data);
 });
 
 function make_viz(data){
