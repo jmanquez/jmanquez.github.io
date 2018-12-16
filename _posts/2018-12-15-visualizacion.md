@@ -46,7 +46,7 @@ var links = [
 ];
 
 
-var visualization = d3plus.Sankey()
+new d3plus.Sankey()
 .links(links)
 .nodes(nodes)
 .render();
