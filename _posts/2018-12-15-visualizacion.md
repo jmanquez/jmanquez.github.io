@@ -46,9 +46,19 @@ var links = [
 ];
 
 
-new d3plus.Sankey()
-.links(links)
-.nodes(nodes)
-.render();
+var visualization = d3plus.viz()
+    .container("#viz")
+    .edges({
+      "strength": "strength",
+      "value": links
+    })
+    .focus({
+      "tooltip": false,
+      "value": "gamma"
+    })
+    .id("id")
+    .nodes(nodes)
+    .type("sankey")
+    .draw();
 
 </script>
