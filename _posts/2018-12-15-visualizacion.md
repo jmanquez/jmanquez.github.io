@@ -24,9 +24,9 @@ En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wi
 
 ### Categorias de Desempeño con Diagrama de Sankey.
 
-Los digagramas de Sankey...
+Categorias de Desempeño y Diagramas Sankey
 
-<div id="viz2"></div>
+
 <script>
 var nodes = [
   {id: "alpha"},
@@ -47,7 +47,6 @@ var links = [
 
 
 new d3plus.Sankey()
-  .container("#viz2")
   .links(links)
   .nodes(nodes)
   .render();
