@@ -12,14 +12,13 @@ En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wi
 
 <script>
 d3.json({{site.data.matricula | jsonify}}, function(data) {
-  console.log(data[0]);
   make_viz(matricula);
 });
 
 function make_viz(data){
   var visualization = d3plus.viz()
     .container("#viz")
-    .data(sample_data)
+    .data(matricula)
     .type("tree_map")
     .id(["REGION","COMUNA"])
     .size("MATRICULA")
