@@ -14,1743 +14,1743 @@ En el primer ejemplo visualizaremos los datos de matrícula escolar, a trabes de
 <script>
 var sample_data = [
   {
-    "NOM_COM_RBD": "IQUIQUE",
-    "COUNT(MRUN)": 34877,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "IQUIQUE",
+    "MATRICULA": 34877,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "ALTO HOSPICIO",
-    "COUNT(MRUN)": 22336,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "ALTO HOSPICIO",
+    "MATRICULA": 22336,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "POZO ALMONTE",
-    "COUNT(MRUN)": 2723,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "POZO ALMONTE",
+    "MATRICULA": 2723,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "CAMIÑA",
-    "COUNT(MRUN)": 208,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "CAMIÑA",
+    "MATRICULA": 208,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "COLCHANE",
-    "COUNT(MRUN)": 121,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "COLCHANE",
+    "MATRICULA": 121,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "HUARA",
-    "COUNT(MRUN)": 408,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "HUARA",
+    "MATRICULA": 408,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "PICA",
-    "COUNT(MRUN)": 1059,
-    "COD_REG_RBD": "Región 1"
+    "COMUNA": "PICA",
+    "MATRICULA": 1059,
+    "REGION": "Región Región 1"
   },
   {
-    "NOM_COM_RBD": "ANTOFAGASTA",
-    "COUNT(MRUN)": 63857,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "ANTOFAGASTA",
+    "MATRICULA": 63857,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "MEJILLONES",
-    "COUNT(MRUN)": 2156,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "MEJILLONES",
+    "MATRICULA": 2156,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "SIERRA GORDA",
-    "COUNT(MRUN)": 228,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "SIERRA GORDA",
+    "MATRICULA": 228,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "TALTAL",
-    "COUNT(MRUN)": 2266,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "TALTAL",
+    "MATRICULA": 2266,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "CALAMA",
-    "COUNT(MRUN)": 31277,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "CALAMA",
+    "MATRICULA": 31277,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "OLLAGÜE",
-    "COUNT(MRUN)": 38,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "OLLAGÜE",
+    "MATRICULA": 38,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "SAN PEDRO DE ATACAMA",
-    "COUNT(MRUN)": 1463,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "SAN PEDRO DE ATACAMA",
+    "MATRICULA": 1463,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "TOCOPILLA",
-    "COUNT(MRUN)": 4838,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "TOCOPILLA",
+    "MATRICULA": 4838,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "MARIA ELENA",
-    "COUNT(MRUN)": 857,
-    "COD_REG_RBD": "Región 2"
+    "COMUNA": "MARIA ELENA",
+    "MATRICULA": 857,
+    "REGION": "Región Región 2"
   },
   {
-    "NOM_COM_RBD": "COPIAPO",
-    "COUNT(MRUN)": 29552,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "COPIAPO",
+    "MATRICULA": 29552,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "CALDERA",
-    "COUNT(MRUN)": 3236,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "CALDERA",
+    "MATRICULA": 3236,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "TIERRA AMARILLA",
-    "COUNT(MRUN)": 2128,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "TIERRA AMARILLA",
+    "MATRICULA": 2128,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "CHAÑARAL",
-    "COUNT(MRUN)": 2491,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "CHAÑARAL",
+    "MATRICULA": 2491,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "DIEGO DE ALMAGRO",
-    "COUNT(MRUN)": 2914,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "DIEGO DE ALMAGRO",
+    "MATRICULA": 2914,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "VALLENAR",
-    "COUNT(MRUN)": 9916,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "VALLENAR",
+    "MATRICULA": 9916,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "ALTO DEL CARMEN",
-    "COUNT(MRUN)": 776,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "ALTO DEL CARMEN",
+    "MATRICULA": 776,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "FREIRINA",
-    "COUNT(MRUN)": 1034,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "FREIRINA",
+    "MATRICULA": 1034,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "HUASCO",
-    "COUNT(MRUN)": 1690,
-    "COD_REG_RBD": "Región 3"
+    "COMUNA": "HUASCO",
+    "MATRICULA": 1690,
+    "REGION": "Región Región 3"
   },
   {
-    "NOM_COM_RBD": "LA SERENA",
-    "COUNT(MRUN)": 45679,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "LA SERENA",
+    "MATRICULA": 45679,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "COQUIMBO",
-    "COUNT(MRUN)": 34655,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "COQUIMBO",
+    "MATRICULA": 34655,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "ANDACOLLO",
-    "COUNT(MRUN)": 1805,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "ANDACOLLO",
+    "MATRICULA": 1805,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "LA HIGUERA",
-    "COUNT(MRUN)": 598,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "LA HIGUERA",
+    "MATRICULA": 598,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "PAIGUANO",
-    "COUNT(MRUN)": 635,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "PAIGUANO",
+    "MATRICULA": 635,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "VICUÑA",
-    "COUNT(MRUN)": 4513,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "VICUÑA",
+    "MATRICULA": 4513,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "ILLAPEL",
-    "COUNT(MRUN)": 5740,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "ILLAPEL",
+    "MATRICULA": 5740,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "CANELA",
-    "COUNT(MRUN)": 1294,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "CANELA",
+    "MATRICULA": 1294,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "LOS VILOS",
-    "COUNT(MRUN)": 3521,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "LOS VILOS",
+    "MATRICULA": 3521,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "SALAMANCA",
-    "COUNT(MRUN)": 4701,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "SALAMANCA",
+    "MATRICULA": 4701,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "OVALLE",
-    "COUNT(MRUN)": 20990,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "OVALLE",
+    "MATRICULA": 20990,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "COMBARBALA",
-    "COUNT(MRUN)": 1883,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "COMBARBALA",
+    "MATRICULA": 1883,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "MONTE PATRIA",
-    "COUNT(MRUN)": 4739,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "MONTE PATRIA",
+    "MATRICULA": 4739,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "PUNITAQUI",
-    "COUNT(MRUN)": 1726,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "PUNITAQUI",
+    "MATRICULA": 1726,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "RIO HURTADO",
-    "COUNT(MRUN)": 584,
-    "COD_REG_RBD": "Región 4"
+    "COMUNA": "RIO HURTADO",
+    "MATRICULA": 584,
+    "REGION": "Región Región 4"
   },
   {
-    "NOM_COM_RBD": "VALPARAISO",
-    "COUNT(MRUN)": 43420,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "VALPARAISO",
+    "MATRICULA": 43420,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CASABLANCA",
-    "COUNT(MRUN)": 4387,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CASABLANCA",
+    "MATRICULA": 4387,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CONCON",
-    "COUNT(MRUN)": 6942,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CONCON",
+    "MATRICULA": 6942,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "JUAN FERNANDEZ",
-    "COUNT(MRUN)": 137,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "JUAN FERNANDEZ",
+    "MATRICULA": 137,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "PUCHUNCAVI",
-    "COUNT(MRUN)": 2339,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "PUCHUNCAVI",
+    "MATRICULA": 2339,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "QUINTERO",
-    "COUNT(MRUN)": 4805,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "QUINTERO",
+    "MATRICULA": 4805,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "VIÑA DEL MAR",
-    "COUNT(MRUN)": 47125,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "VIÑA DEL MAR",
+    "MATRICULA": 47125,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "ISLA DE PASCUA",
-    "COUNT(MRUN)": 1254,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "ISLA DE PASCUA",
+    "MATRICULA": 1254,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "LOS ANDES",
-    "COUNT(MRUN)": 13847,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "LOS ANDES",
+    "MATRICULA": 13847,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CALLE LARGA",
-    "COUNT(MRUN)": 2143,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CALLE LARGA",
+    "MATRICULA": 2143,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "RINCONADA",
-    "COUNT(MRUN)": 1157,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "RINCONADA",
+    "MATRICULA": 1157,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "SAN ESTEBAN",
-    "COUNT(MRUN)": 1315,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "SAN ESTEBAN",
+    "MATRICULA": 1315,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "LA LIGUA",
-    "COUNT(MRUN)": 5776,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "LA LIGUA",
+    "MATRICULA": 5776,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CABILDO",
-    "COUNT(MRUN)": 3746,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CABILDO",
+    "MATRICULA": 3746,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "PAPUDO",
-    "COUNT(MRUN)": 762,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "PAPUDO",
+    "MATRICULA": 762,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "PETORCA",
-    "COUNT(MRUN)": 1474,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "PETORCA",
+    "MATRICULA": 1474,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "ZAPALLAR",
-    "COUNT(MRUN)": 1275,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "ZAPALLAR",
+    "MATRICULA": 1275,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "QUILLOTA",
-    "COUNT(MRUN)": 17287,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "QUILLOTA",
+    "MATRICULA": 17287,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CALERA",
-    "COUNT(MRUN)": 9926,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CALERA",
+    "MATRICULA": 9926,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "HIJUELAS",
-    "COUNT(MRUN)": 2325,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "HIJUELAS",
+    "MATRICULA": 2325,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "LA CRUZ",
-    "COUNT(MRUN)": 1438,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "LA CRUZ",
+    "MATRICULA": 1438,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "NOGALES",
-    "COUNT(MRUN)": 3433,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "NOGALES",
+    "MATRICULA": 3433,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "SAN ANTONIO",
-    "COUNT(MRUN)": 15723,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "SAN ANTONIO",
+    "MATRICULA": 15723,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "ALGARROBO",
-    "COUNT(MRUN)": 2037,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "ALGARROBO",
+    "MATRICULA": 2037,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CARTAGENA",
-    "COUNT(MRUN)": 3910,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CARTAGENA",
+    "MATRICULA": 3910,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "EL QUISCO",
-    "COUNT(MRUN)": 1845,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "EL QUISCO",
+    "MATRICULA": 1845,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "EL TABO",
-    "COUNT(MRUN)": 920,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "EL TABO",
+    "MATRICULA": 920,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "SANTO DOMINGO",
-    "COUNT(MRUN)": 2015,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "SANTO DOMINGO",
+    "MATRICULA": 2015,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "SAN FELIPE",
-    "COUNT(MRUN)": 15563,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "SAN FELIPE",
+    "MATRICULA": 15563,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "CATEMU",
-    "COUNT(MRUN)": 2117,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "CATEMU",
+    "MATRICULA": 2117,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "LLAILLAY",
-    "COUNT(MRUN)": 4326,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "LLAILLAY",
+    "MATRICULA": 4326,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "PANQUEHUE",
-    "COUNT(MRUN)": 1131,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "PANQUEHUE",
+    "MATRICULA": 1131,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "PUTAENDO",
-    "COUNT(MRUN)": 1863,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "PUTAENDO",
+    "MATRICULA": 1863,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "SANTA MARIA",
-    "COUNT(MRUN)": 1949,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "SANTA MARIA",
+    "MATRICULA": 1949,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "QUILPUE",
-    "COUNT(MRUN)": 27000,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "QUILPUE",
+    "MATRICULA": 27000,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "LIMACHE",
-    "COUNT(MRUN)": 7108,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "LIMACHE",
+    "MATRICULA": 7108,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "OLMUE",
-    "COUNT(MRUN)": 2096,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "OLMUE",
+    "MATRICULA": 2096,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "VILLA ALEMANA",
-    "COUNT(MRUN)": 18784,
-    "COD_REG_RBD": "Región 5"
+    "COMUNA": "VILLA ALEMANA",
+    "MATRICULA": 18784,
+    "REGION": "Región Región 5"
   },
   {
-    "NOM_COM_RBD": "RANCAGUA",
-    "COUNT(MRUN)": 45672,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "RANCAGUA",
+    "MATRICULA": 45672,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "CODEGUA",
-    "COUNT(MRUN)": 1336,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "CODEGUA",
+    "MATRICULA": 1336,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "COINCO",
-    "COUNT(MRUN)": 847,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "COINCO",
+    "MATRICULA": 847,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "COLTAUCO",
-    "COUNT(MRUN)": 2964,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "COLTAUCO",
+    "MATRICULA": 2964,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "DOÑIHUE",
-    "COUNT(MRUN)": 3312,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "DOÑIHUE",
+    "MATRICULA": 3312,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "GRANEROS",
-    "COUNT(MRUN)": 7372,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "GRANEROS",
+    "MATRICULA": 7372,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "LAS CABRAS",
-    "COUNT(MRUN)": 4168,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "LAS CABRAS",
+    "MATRICULA": 4168,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "MACHALI",
-    "COUNT(MRUN)": 9877,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "MACHALI",
+    "MATRICULA": 9877,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "MALLOA",
-    "COUNT(MRUN)": 1300,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "MALLOA",
+    "MATRICULA": 1300,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "MOSTAZAL",
-    "COUNT(MRUN)": 3267,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "MOSTAZAL",
+    "MATRICULA": 3267,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "OLIVAR",
-    "COUNT(MRUN)": 2075,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "OLIVAR",
+    "MATRICULA": 2075,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PEUMO",
-    "COUNT(MRUN)": 1895,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PEUMO",
+    "MATRICULA": 1895,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PICHIDEGUA",
-    "COUNT(MRUN)": 2094,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PICHIDEGUA",
+    "MATRICULA": 2094,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "QUINTA DE TILCOCO",
-    "COUNT(MRUN)": 1988,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "QUINTA DE TILCOCO",
+    "MATRICULA": 1988,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "RENGO",
-    "COUNT(MRUN)": 10183,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "RENGO",
+    "MATRICULA": 10183,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "REQUINOA",
-    "COUNT(MRUN)": 3496,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "REQUINOA",
+    "MATRICULA": 3496,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "SAN VICENTE",
-    "COUNT(MRUN)": 9043,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "SAN VICENTE",
+    "MATRICULA": 9043,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PICHILEMU",
-    "COUNT(MRUN)": 2586,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PICHILEMU",
+    "MATRICULA": 2586,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "LA ESTRELLA",
-    "COUNT(MRUN)": 223,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "LA ESTRELLA",
+    "MATRICULA": 223,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "LITUECHE",
-    "COUNT(MRUN)": 905,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "LITUECHE",
+    "MATRICULA": 905,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "MARCHIHUE",
-    "COUNT(MRUN)": 749,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "MARCHIHUE",
+    "MATRICULA": 749,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "NAVIDAD",
-    "COUNT(MRUN)": 793,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "NAVIDAD",
+    "MATRICULA": 793,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PAREDONES",
-    "COUNT(MRUN)": 694,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PAREDONES",
+    "MATRICULA": 694,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "SAN FERNANDO",
-    "COUNT(MRUN)": 15621,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "SAN FERNANDO",
+    "MATRICULA": 15621,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "CHEPICA",
-    "COUNT(MRUN)": 1643,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "CHEPICA",
+    "MATRICULA": 1643,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "CHIMBARONGO",
-    "COUNT(MRUN)": 5566,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "CHIMBARONGO",
+    "MATRICULA": 5566,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "LOLOL",
-    "COUNT(MRUN)": 863,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "LOLOL",
+    "MATRICULA": 863,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "NANCAGUA",
-    "COUNT(MRUN)": 2534,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "NANCAGUA",
+    "MATRICULA": 2534,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PALMILLA",
-    "COUNT(MRUN)": 1070,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PALMILLA",
+    "MATRICULA": 1070,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PERALILLO",
-    "COUNT(MRUN)": 1437,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PERALILLO",
+    "MATRICULA": 1437,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PLACILLA",
-    "COUNT(MRUN)": 767,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PLACILLA",
+    "MATRICULA": 767,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "PUMANQUE",
-    "COUNT(MRUN)": 251,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "PUMANQUE",
+    "MATRICULA": 251,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "SANTA CRUZ",
-    "COUNT(MRUN)": 8892,
-    "COD_REG_RBD": "Región 6"
+    "COMUNA": "SANTA CRUZ",
+    "MATRICULA": 8892,
+    "REGION": "Región Región 6"
   },
   {
-    "NOM_COM_RBD": "TALCA",
-    "COUNT(MRUN)": 44483,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "TALCA",
+    "MATRICULA": 44483,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CONSTITUCION",
-    "COUNT(MRUN)": 8337,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "CONSTITUCION",
+    "MATRICULA": 8337,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CUREPTO",
-    "COUNT(MRUN)": 1115,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "CUREPTO",
+    "MATRICULA": 1115,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "EMPEDRADO",
-    "COUNT(MRUN)": 681,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "EMPEDRADO",
+    "MATRICULA": 681,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "MAULE",
-    "COUNT(MRUN)": 4283,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "MAULE",
+    "MATRICULA": 4283,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "PELARCO",
-    "COUNT(MRUN)": 927,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "PELARCO",
+    "MATRICULA": 927,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "PENCAHUE",
-    "COUNT(MRUN)": 812,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "PENCAHUE",
+    "MATRICULA": 812,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "RIO CLARO",
-    "COUNT(MRUN)": 1658,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "RIO CLARO",
+    "MATRICULA": 1658,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "SAN CLEMENTE",
-    "COUNT(MRUN)": 5541,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "SAN CLEMENTE",
+    "MATRICULA": 5541,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "SAN RAFAEL",
-    "COUNT(MRUN)": 1148,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "SAN RAFAEL",
+    "MATRICULA": 1148,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CAUQUENES",
-    "COUNT(MRUN)": 7021,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "CAUQUENES",
+    "MATRICULA": 7021,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CHANCO",
-    "COUNT(MRUN)": 1126,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "CHANCO",
+    "MATRICULA": 1126,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "PELLUHUE",
-    "COUNT(MRUN)": 1230,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "PELLUHUE",
+    "MATRICULA": 1230,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CURICO",
-    "COUNT(MRUN)": 29236,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "CURICO",
+    "MATRICULA": 29236,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "HUALAÑE",
-    "COUNT(MRUN)": 1530,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "HUALAÑE",
+    "MATRICULA": 1530,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "LICANTEN",
-    "COUNT(MRUN)": 1053,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "LICANTEN",
+    "MATRICULA": 1053,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "MOLINA",
-    "COUNT(MRUN)": 6963,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "MOLINA",
+    "MATRICULA": 6963,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "RAUCO",
-    "COUNT(MRUN)": 932,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "RAUCO",
+    "MATRICULA": 932,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "ROMERAL",
-    "COUNT(MRUN)": 2015,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "ROMERAL",
+    "MATRICULA": 2015,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "SAGRADA FAMILIA",
-    "COUNT(MRUN)": 2045,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "SAGRADA FAMILIA",
+    "MATRICULA": 2045,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "TENO",
-    "COUNT(MRUN)": 4343,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "TENO",
+    "MATRICULA": 4343,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "VICHUQUEN",
-    "COUNT(MRUN)": 544,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "VICHUQUEN",
+    "MATRICULA": 544,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "LINARES",
-    "COUNT(MRUN)": 19318,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "LINARES",
+    "MATRICULA": 19318,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "COLBUN",
-    "COUNT(MRUN)": 2937,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "COLBUN",
+    "MATRICULA": 2937,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "LONGAVI",
-    "COUNT(MRUN)": 3760,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "LONGAVI",
+    "MATRICULA": 3760,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "PARRAL",
-    "COUNT(MRUN)": 7045,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "PARRAL",
+    "MATRICULA": 7045,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "RETIRO",
-    "COUNT(MRUN)": 3190,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "RETIRO",
+    "MATRICULA": 3190,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "SAN JAVIER",
-    "COUNT(MRUN)": 8730,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "SAN JAVIER",
+    "MATRICULA": 8730,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "VILLA ALEGRE",
-    "COUNT(MRUN)": 1955,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "VILLA ALEGRE",
+    "MATRICULA": 1955,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "YERBAS BUENAS",
-    "COUNT(MRUN)": 1696,
-    "COD_REG_RBD": "Región 7"
+    "COMUNA": "YERBAS BUENAS",
+    "MATRICULA": 1696,
+    "REGION": "Región Región 7"
   },
   {
-    "NOM_COM_RBD": "CONCEPCION",
-    "COUNT(MRUN)": 40104,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CONCEPCION",
+    "MATRICULA": 40104,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CORONEL",
-    "COUNT(MRUN)": 20435,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CORONEL",
+    "MATRICULA": 20435,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CHIGUAYANTE",
-    "COUNT(MRUN)": 14000,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CHIGUAYANTE",
+    "MATRICULA": 14000,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "FLORIDA",
-    "COUNT(MRUN)": 1436,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "FLORIDA",
+    "MATRICULA": 1436,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "HUALQUI",
-    "COUNT(MRUN)": 3308,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "HUALQUI",
+    "MATRICULA": 3308,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "LOTA",
-    "COUNT(MRUN)": 7862,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "LOTA",
+    "MATRICULA": 7862,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "PENCO",
-    "COUNT(MRUN)": 5720,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "PENCO",
+    "MATRICULA": 5720,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN PEDRO DE LA PAZ",
-    "COUNT(MRUN)": 20819,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN PEDRO DE LA PAZ",
+    "MATRICULA": 20819,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SANTA JUANA",
-    "COUNT(MRUN)": 2278,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SANTA JUANA",
+    "MATRICULA": 2278,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TALCAHUANO",
-    "COUNT(MRUN)": 21586,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "TALCAHUANO",
+    "MATRICULA": 21586,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TOME",
-    "COUNT(MRUN)": 8549,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "TOME",
+    "MATRICULA": 8549,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "HUALPEN",
-    "COUNT(MRUN)": 11375,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "HUALPEN",
+    "MATRICULA": 11375,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "LEBU",
-    "COUNT(MRUN)": 4687,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "LEBU",
+    "MATRICULA": 4687,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "ARAUCO",
-    "COUNT(MRUN)": 6332,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "ARAUCO",
+    "MATRICULA": 6332,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CAÑETE",
-    "COUNT(MRUN)": 7098,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CAÑETE",
+    "MATRICULA": 7098,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CONTULMO",
-    "COUNT(MRUN)": 1099,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CONTULMO",
+    "MATRICULA": 1099,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CURANILAHUE",
-    "COUNT(MRUN)": 5729,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CURANILAHUE",
+    "MATRICULA": 5729,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "LOS ALAMOS",
-    "COUNT(MRUN)": 3899,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "LOS ALAMOS",
+    "MATRICULA": 3899,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TIRUA",
-    "COUNT(MRUN)": 1852,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "TIRUA",
+    "MATRICULA": 1852,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "LOS ANGELES",
-    "COUNT(MRUN)": 38514,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "LOS ANGELES",
+    "MATRICULA": 38514,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "ANTUCO",
-    "COUNT(MRUN)": 634,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "ANTUCO",
+    "MATRICULA": 634,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CABRERO",
-    "COUNT(MRUN)": 4819,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CABRERO",
+    "MATRICULA": 4819,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "LAJA",
-    "COUNT(MRUN)": 4288,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "LAJA",
+    "MATRICULA": 4288,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "MULCHEN",
-    "COUNT(MRUN)": 4994,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "MULCHEN",
+    "MATRICULA": 4994,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "NACIMIENTO",
-    "COUNT(MRUN)": 5007,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "NACIMIENTO",
+    "MATRICULA": 5007,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "NEGRETE",
-    "COUNT(MRUN)": 1424,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "NEGRETE",
+    "MATRICULA": 1424,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "QUILACO",
-    "COUNT(MRUN)": 385,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "QUILACO",
+    "MATRICULA": 385,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "QUILLECO",
-    "COUNT(MRUN)": 1249,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "QUILLECO",
+    "MATRICULA": 1249,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN ROSENDO",
-    "COUNT(MRUN)": 326,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN ROSENDO",
+    "MATRICULA": 326,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SANTA BARBARA",
-    "COUNT(MRUN)": 2419,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SANTA BARBARA",
+    "MATRICULA": 2419,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TUCAPEL",
-    "COUNT(MRUN)": 2003,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "TUCAPEL",
+    "MATRICULA": 2003,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "YUMBEL",
-    "COUNT(MRUN)": 3242,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "YUMBEL",
+    "MATRICULA": 3242,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "ALTO BIOBIO",
-    "COUNT(MRUN)": 1093,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "ALTO BIOBIO",
+    "MATRICULA": 1093,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CHILLAN",
-    "COUNT(MRUN)": 34536,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CHILLAN",
+    "MATRICULA": 34536,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "BULNES",
-    "COUNT(MRUN)": 3746,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "BULNES",
+    "MATRICULA": 3746,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "COBQUECURA",
-    "COUNT(MRUN)": 566,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "COBQUECURA",
+    "MATRICULA": 566,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "COELEMU",
-    "COUNT(MRUN)": 2727,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "COELEMU",
+    "MATRICULA": 2727,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "COIHUECO",
-    "COUNT(MRUN)": 3763,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "COIHUECO",
+    "MATRICULA": 3763,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "CHILLAN VIEJO",
-    "COUNT(MRUN)": 3523,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "CHILLAN VIEJO",
+    "MATRICULA": 3523,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "EL CARMEN",
-    "COUNT(MRUN)": 2193,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "EL CARMEN",
+    "MATRICULA": 2193,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "NINHUE",
-    "COUNT(MRUN)": 723,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "NINHUE",
+    "MATRICULA": 723,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "ÑIQUEN",
-    "COUNT(MRUN)": 1311,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "ÑIQUEN",
+    "MATRICULA": 1311,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "PEMUCO",
-    "COUNT(MRUN)": 1086,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "PEMUCO",
+    "MATRICULA": 1086,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "PINTO",
-    "COUNT(MRUN)": 1734,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "PINTO",
+    "MATRICULA": 1734,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "PORTEZUELO",
-    "COUNT(MRUN)": 700,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "PORTEZUELO",
+    "MATRICULA": 700,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "QUILLON",
-    "COUNT(MRUN)": 2232,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "QUILLON",
+    "MATRICULA": 2232,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "QUIRIHUE",
-    "COUNT(MRUN)": 1792,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "QUIRIHUE",
+    "MATRICULA": 1792,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "RANQUIL",
-    "COUNT(MRUN)": 829,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "RANQUIL",
+    "MATRICULA": 829,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN CARLOS",
-    "COUNT(MRUN)": 8966,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN CARLOS",
+    "MATRICULA": 8966,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN FABIAN",
-    "COUNT(MRUN)": 741,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN FABIAN",
+    "MATRICULA": 741,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN IGNACIO",
-    "COUNT(MRUN)": 2055,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN IGNACIO",
+    "MATRICULA": 2055,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "SAN NICOLAS",
-    "COUNT(MRUN)": 2617,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "SAN NICOLAS",
+    "MATRICULA": 2617,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TREGUACO",
-    "COUNT(MRUN)": 660,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "TREGUACO",
+    "MATRICULA": 660,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "YUNGAY",
-    "COUNT(MRUN)": 3120,
-    "COD_REG_RBD": "Región 8"
+    "COMUNA": "YUNGAY",
+    "MATRICULA": 3120,
+    "REGION": "Región Región 8"
   },
   {
-    "NOM_COM_RBD": "TEMUCO",
-    "COUNT(MRUN)": 52601,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "TEMUCO",
+    "MATRICULA": 52601,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "CARAHUE",
-    "COUNT(MRUN)": 4640,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "CARAHUE",
+    "MATRICULA": 4640,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "CUNCO",
-    "COUNT(MRUN)": 2779,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "CUNCO",
+    "MATRICULA": 2779,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "CURARREHUE",
-    "COUNT(MRUN)": 1093,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "CURARREHUE",
+    "MATRICULA": 1093,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "FREIRE",
-    "COUNT(MRUN)": 3284,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "FREIRE",
+    "MATRICULA": 3284,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "GALVARINO",
-    "COUNT(MRUN)": 2161,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "GALVARINO",
+    "MATRICULA": 2161,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "GORBEA",
-    "COUNT(MRUN)": 1668,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "GORBEA",
+    "MATRICULA": 1668,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "LAUTARO",
-    "COUNT(MRUN)": 6342,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "LAUTARO",
+    "MATRICULA": 6342,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "LONCOCHE",
-    "COUNT(MRUN)": 3692,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "LONCOCHE",
+    "MATRICULA": 3692,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "MELIPEUCO",
-    "COUNT(MRUN)": 924,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "MELIPEUCO",
+    "MATRICULA": 924,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "NUEVA IMPERIAL",
-    "COUNT(MRUN)": 6329,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "NUEVA IMPERIAL",
+    "MATRICULA": 6329,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PADRE LAS CASAS",
-    "COUNT(MRUN)": 10180,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "PADRE LAS CASAS",
+    "MATRICULA": 10180,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PERQUENCO",
-    "COUNT(MRUN)": 1229,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "PERQUENCO",
+    "MATRICULA": 1229,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PITRUFQUEN",
-    "COUNT(MRUN)": 5517,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "PITRUFQUEN",
+    "MATRICULA": 5517,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PUCON",
-    "COUNT(MRUN)": 4856,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "PUCON",
+    "MATRICULA": 4856,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "SAAVEDRA",
-    "COUNT(MRUN)": 1837,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "SAAVEDRA",
+    "MATRICULA": 1837,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "TEODORO SCHMIDT",
-    "COUNT(MRUN)": 1849,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "TEODORO SCHMIDT",
+    "MATRICULA": 1849,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "TOLTEN",
-    "COUNT(MRUN)": 1678,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "TOLTEN",
+    "MATRICULA": 1678,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "VILCUN",
-    "COUNT(MRUN)": 4822,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "VILCUN",
+    "MATRICULA": 4822,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "VILLARRICA",
-    "COUNT(MRUN)": 11858,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "VILLARRICA",
+    "MATRICULA": 11858,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "CHOLCHOL",
-    "COUNT(MRUN)": 2334,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "CHOLCHOL",
+    "MATRICULA": 2334,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "ANGOL",
-    "COUNT(MRUN)": 10332,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "ANGOL",
+    "MATRICULA": 10332,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "COLLIPULLI",
-    "COUNT(MRUN)": 4649,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "COLLIPULLI",
+    "MATRICULA": 4649,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "CURACAUTIN",
-    "COUNT(MRUN)": 2882,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "CURACAUTIN",
+    "MATRICULA": 2882,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "ERCILLA",
-    "COUNT(MRUN)": 1178,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "ERCILLA",
+    "MATRICULA": 1178,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "LONQUIMAY",
-    "COUNT(MRUN)": 1762,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "LONQUIMAY",
+    "MATRICULA": 1762,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "LOS SAUCES",
-    "COUNT(MRUN)": 1084,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "LOS SAUCES",
+    "MATRICULA": 1084,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "LUMACO",
-    "COUNT(MRUN)": 1317,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "LUMACO",
+    "MATRICULA": 1317,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PUREN",
-    "COUNT(MRUN)": 1915,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "PUREN",
+    "MATRICULA": 1915,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "RENAICO",
-    "COUNT(MRUN)": 1473,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "RENAICO",
+    "MATRICULA": 1473,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "TRAIGUEN",
-    "COUNT(MRUN)": 3380,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "TRAIGUEN",
+    "MATRICULA": 3380,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "VICTORIA",
-    "COUNT(MRUN)": 6101,
-    "COD_REG_RBD": "Región 9"
+    "COMUNA": "VICTORIA",
+    "MATRICULA": 6101,
+    "REGION": "Región Región 9"
   },
   {
-    "NOM_COM_RBD": "PUERTO MONTT",
-    "COUNT(MRUN)": 45681,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PUERTO MONTT",
+    "MATRICULA": 45681,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "CALBUCO",
-    "COUNT(MRUN)": 5911,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "CALBUCO",
+    "MATRICULA": 5911,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "COCHAMO",
-    "COUNT(MRUN)": 552,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "COCHAMO",
+    "MATRICULA": 552,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "FRESIA",
-    "COUNT(MRUN)": 1941,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "FRESIA",
+    "MATRICULA": 1941,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "FRUTILLAR",
-    "COUNT(MRUN)": 3513,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "FRUTILLAR",
+    "MATRICULA": 3513,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "LOS MUERMOS",
-    "COUNT(MRUN)": 3262,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "LOS MUERMOS",
+    "MATRICULA": 3262,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "LLANQUIHUE",
-    "COUNT(MRUN)": 2289,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "LLANQUIHUE",
+    "MATRICULA": 2289,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "MAULLIN",
-    "COUNT(MRUN)": 1822,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "MAULLIN",
+    "MATRICULA": 1822,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PUERTO VARAS",
-    "COUNT(MRUN)": 8414,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PUERTO VARAS",
+    "MATRICULA": 8414,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "CASTRO",
-    "COUNT(MRUN)": 9229,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "CASTRO",
+    "MATRICULA": 9229,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "ANCUD",
-    "COUNT(MRUN)": 7419,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "ANCUD",
+    "MATRICULA": 7419,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "CHONCHI",
-    "COUNT(MRUN)": 2705,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "CHONCHI",
+    "MATRICULA": 2705,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "CURACO DE VELEZ",
-    "COUNT(MRUN)": 585,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "CURACO DE VELEZ",
+    "MATRICULA": 585,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "DALCAHUE",
-    "COUNT(MRUN)": 2169,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "DALCAHUE",
+    "MATRICULA": 2169,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PUQUELDON",
-    "COUNT(MRUN)": 405,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PUQUELDON",
+    "MATRICULA": 405,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "QUEILEN",
-    "COUNT(MRUN)": 814,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "QUEILEN",
+    "MATRICULA": 814,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "QUELLON",
-    "COUNT(MRUN)": 5293,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "QUELLON",
+    "MATRICULA": 5293,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "QUEMCHI",
-    "COUNT(MRUN)": 1138,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "QUEMCHI",
+    "MATRICULA": 1138,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "QUINCHAO",
-    "COUNT(MRUN)": 1841,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "QUINCHAO",
+    "MATRICULA": 1841,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "OSORNO",
-    "COUNT(MRUN)": 28997,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "OSORNO",
+    "MATRICULA": 28997,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PUERTO OCTAY",
-    "COUNT(MRUN)": 1255,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PUERTO OCTAY",
+    "MATRICULA": 1255,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PURRANQUE",
-    "COUNT(MRUN)": 3427,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PURRANQUE",
+    "MATRICULA": 3427,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PUYEHUE",
-    "COUNT(MRUN)": 1750,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PUYEHUE",
+    "MATRICULA": 1750,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "RIO NEGRO",
-    "COUNT(MRUN)": 2110,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "RIO NEGRO",
+    "MATRICULA": 2110,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "SAN JUAN DE LA COSTA",
-    "COUNT(MRUN)": 1073,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "SAN JUAN DE LA COSTA",
+    "MATRICULA": 1073,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "SAN PABLO",
-    "COUNT(MRUN)": 1406,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "SAN PABLO",
+    "MATRICULA": 1406,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "CHAITEN",
-    "COUNT(MRUN)": 674,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "CHAITEN",
+    "MATRICULA": 674,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "FUTALEUFU",
-    "COUNT(MRUN)": 402,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "FUTALEUFU",
+    "MATRICULA": 402,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "HUALAIHUE",
-    "COUNT(MRUN)": 1657,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "HUALAIHUE",
+    "MATRICULA": 1657,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "PALENA",
-    "COUNT(MRUN)": 265,
-    "COD_REG_RBD": "Región 10"
+    "COMUNA": "PALENA",
+    "MATRICULA": 265,
+    "REGION": "Región Región 10"
   },
   {
-    "NOM_COM_RBD": "COIHAIQUE",
-    "COUNT(MRUN)": 11293,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "COIHAIQUE",
+    "MATRICULA": 11293,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "LAGO VERDE",
-    "COUNT(MRUN)": 90,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "LAGO VERDE",
+    "MATRICULA": 90,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "AISEN",
-    "COUNT(MRUN)": 4596,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "AISEN",
+    "MATRICULA": 4596,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "CISNES",
-    "COUNT(MRUN)": 940,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "CISNES",
+    "MATRICULA": 940,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "GUAITECAS",
-    "COUNT(MRUN)": 272,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "GUAITECAS",
+    "MATRICULA": 272,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "COCHRANE",
-    "COUNT(MRUN)": 624,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "COCHRANE",
+    "MATRICULA": 624,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "O'HIGGINS",
-    "COUNT(MRUN)": 86,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "O'HIGGINS",
+    "MATRICULA": 86,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "TORTEL",
-    "COUNT(MRUN)": 72,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "TORTEL",
+    "MATRICULA": 72,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "CHILE CHICO",
-    "COUNT(MRUN)": 809,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "CHILE CHICO",
+    "MATRICULA": 809,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "RIO IBAÑEZ",
-    "COUNT(MRUN)": 305,
-    "COD_REG_RBD": "Región 11"
+    "COMUNA": "RIO IBAÑEZ",
+    "MATRICULA": 305,
+    "REGION": "Región Región 11"
   },
   {
-    "NOM_COM_RBD": "PUNTA ARENAS",
-    "COUNT(MRUN)": 20852,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "PUNTA ARENAS",
+    "MATRICULA": 20852,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "LAGUNA BLANCA",
-    "COUNT(MRUN)": 31,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "LAGUNA BLANCA",
+    "MATRICULA": 31,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "RIO VERDE",
-    "COUNT(MRUN)": 7,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "RIO VERDE",
+    "MATRICULA": 7,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "SAN GREGORIO",
-    "COUNT(MRUN)": 40,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "SAN GREGORIO",
+    "MATRICULA": 40,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "CABO DE HORNOS",
-    "COUNT(MRUN)": 383,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "CABO DE HORNOS",
+    "MATRICULA": 383,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "ANTARTICA",
-    "COUNT(MRUN)": 4,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "ANTARTICA",
+    "MATRICULA": 4,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "PORVENIR",
-    "COUNT(MRUN)": 994,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "PORVENIR",
+    "MATRICULA": 994,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "PRIMAVERA",
-    "COUNT(MRUN)": 46,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "PRIMAVERA",
+    "MATRICULA": 46,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "TIMAUKEL",
-    "COUNT(MRUN)": 21,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "TIMAUKEL",
+    "MATRICULA": 21,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "NATALES",
-    "COUNT(MRUN)": 3634,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "NATALES",
+    "MATRICULA": 3634,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "TORRES DEL PAINE",
-    "COUNT(MRUN)": 33,
-    "COD_REG_RBD": "Región 12"
+    "COMUNA": "TORRES DEL PAINE",
+    "MATRICULA": 33,
+    "REGION": "Región Región 12"
   },
   {
-    "NOM_COM_RBD": "SANTIAGO",
-    "COUNT(MRUN)": 71435,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SANTIAGO",
+    "MATRICULA": 71435,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "CERRILLOS",
-    "COUNT(MRUN)": 10346,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "CERRILLOS",
+    "MATRICULA": 10346,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "CERRO NAVIA",
-    "COUNT(MRUN)": 13164,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "CERRO NAVIA",
+    "MATRICULA": 13164,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "CONCHALI",
-    "COUNT(MRUN)": 16434,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "CONCHALI",
+    "MATRICULA": 16434,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "EL BOSQUE",
-    "COUNT(MRUN)": 29236,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "EL BOSQUE",
+    "MATRICULA": 29236,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "ESTACION CENTRAL",
-    "COUNT(MRUN)": 20139,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "ESTACION CENTRAL",
+    "MATRICULA": 20139,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "HUECHURABA",
-    "COUNT(MRUN)": 11614,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "HUECHURABA",
+    "MATRICULA": 11614,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "INDEPENDENCIA",
-    "COUNT(MRUN)": 16615,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "INDEPENDENCIA",
+    "MATRICULA": 16615,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LA CISTERNA",
-    "COUNT(MRUN)": 23606,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LA CISTERNA",
+    "MATRICULA": 23606,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LA FLORIDA",
-    "COUNT(MRUN)": 64377,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LA FLORIDA",
+    "MATRICULA": 64377,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LA GRANJA",
-    "COUNT(MRUN)": 15053,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LA GRANJA",
+    "MATRICULA": 15053,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LA PINTANA",
-    "COUNT(MRUN)": 28203,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LA PINTANA",
+    "MATRICULA": 28203,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LA REINA",
-    "COUNT(MRUN)": 18709,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LA REINA",
+    "MATRICULA": 18709,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LAS CONDES",
-    "COUNT(MRUN)": 35256,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LAS CONDES",
+    "MATRICULA": 35256,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LO BARNECHEA",
-    "COUNT(MRUN)": 18136,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LO BARNECHEA",
+    "MATRICULA": 18136,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LO ESPEJO",
-    "COUNT(MRUN)": 9064,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LO ESPEJO",
+    "MATRICULA": 9064,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LO PRADO",
-    "COUNT(MRUN)": 9345,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LO PRADO",
+    "MATRICULA": 9345,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "MACUL",
-    "COUNT(MRUN)": 12517,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "MACUL",
+    "MATRICULA": 12517,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "MAIPU",
-    "COUNT(MRUN)": 82493,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "MAIPU",
+    "MATRICULA": 82493,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "ÑUÑOA",
-    "COUNT(MRUN)": 33700,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "ÑUÑOA",
+    "MATRICULA": 33700,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PEDRO AGUIRRE CERDA",
-    "COUNT(MRUN)": 12330,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PEDRO AGUIRRE CERDA",
+    "MATRICULA": 12330,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PEÑALOLEN",
-    "COUNT(MRUN)": 30658,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PEÑALOLEN",
+    "MATRICULA": 30658,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PROVIDENCIA",
-    "COUNT(MRUN)": 27800,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PROVIDENCIA",
+    "MATRICULA": 27800,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PUDAHUEL",
-    "COUNT(MRUN)": 26966,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PUDAHUEL",
+    "MATRICULA": 26966,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "QUILICURA",
-    "COUNT(MRUN)": 36107,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "QUILICURA",
+    "MATRICULA": 36107,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "QUINTA NORMAL",
-    "COUNT(MRUN)": 21498,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "QUINTA NORMAL",
+    "MATRICULA": 21498,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "RECOLETA",
-    "COUNT(MRUN)": 26804,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "RECOLETA",
+    "MATRICULA": 26804,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "RENCA",
-    "COUNT(MRUN)": 20897,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "RENCA",
+    "MATRICULA": 20897,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN JOAQUIN",
-    "COUNT(MRUN)": 8241,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN JOAQUIN",
+    "MATRICULA": 8241,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN MIGUEL",
-    "COUNT(MRUN)": 22075,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN MIGUEL",
+    "MATRICULA": 22075,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN RAMON",
-    "COUNT(MRUN)": 11395,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN RAMON",
+    "MATRICULA": 11395,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "VITACURA",
-    "COUNT(MRUN)": 17444,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "VITACURA",
+    "MATRICULA": 17444,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PUENTE ALTO",
-    "COUNT(MRUN)": 86942,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PUENTE ALTO",
+    "MATRICULA": 86942,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PIRQUE",
-    "COUNT(MRUN)": 3182,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PIRQUE",
+    "MATRICULA": 3182,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN JOSE DE MAIPO",
-    "COUNT(MRUN)": 2236,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN JOSE DE MAIPO",
+    "MATRICULA": 2236,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "COLINA",
-    "COUNT(MRUN)": 30003,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "COLINA",
+    "MATRICULA": 30003,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "LAMPA",
-    "COUNT(MRUN)": 15313,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "LAMPA",
+    "MATRICULA": 15313,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "TILTIL",
-    "COUNT(MRUN)": 2788,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "TILTIL",
+    "MATRICULA": 2788,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN BERNARDO",
-    "COUNT(MRUN)": 48778,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN BERNARDO",
+    "MATRICULA": 48778,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "BUIN",
-    "COUNT(MRUN)": 16702,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "BUIN",
+    "MATRICULA": 16702,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "CALERA DE TANGO",
-    "COUNT(MRUN)": 4392,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "CALERA DE TANGO",
+    "MATRICULA": 4392,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PAINE",
-    "COUNT(MRUN)": 13067,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PAINE",
+    "MATRICULA": 13067,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "MELIPILLA",
-    "COUNT(MRUN)": 22571,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "MELIPILLA",
+    "MATRICULA": 22571,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "ALHUE",
-    "COUNT(MRUN)": 953,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "ALHUE",
+    "MATRICULA": 953,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "CURACAVI",
-    "COUNT(MRUN)": 5509,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "CURACAVI",
+    "MATRICULA": 5509,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "MARIA PINTO",
-    "COUNT(MRUN)": 1643,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "MARIA PINTO",
+    "MATRICULA": 1643,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "SAN PEDRO",
-    "COUNT(MRUN)": 1312,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "SAN PEDRO",
+    "MATRICULA": 1312,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "TALAGANTE",
-    "COUNT(MRUN)": 17953,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "TALAGANTE",
+    "MATRICULA": 17953,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "EL MONTE",
-    "COUNT(MRUN)": 4349,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "EL MONTE",
+    "MATRICULA": 4349,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "ISLA DE MAIPO",
-    "COUNT(MRUN)": 5425,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "ISLA DE MAIPO",
+    "MATRICULA": 5425,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PADRE HURTADO",
-    "COUNT(MRUN)": 10559,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PADRE HURTADO",
+    "MATRICULA": 10559,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "PEÑAFLOR",
-    "COUNT(MRUN)": 13647,
-    "COD_REG_RBD": "Región 13"
+    "COMUNA": "PEÑAFLOR",
+    "MATRICULA": 13647,
+    "REGION": "Región Región 13"
   },
   {
-    "NOM_COM_RBD": "VALDIVIA",
-    "COUNT(MRUN)": 26028,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "VALDIVIA",
+    "MATRICULA": 26028,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "CORRAL",
-    "COUNT(MRUN)": 755,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "CORRAL",
+    "MATRICULA": 755,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "LANCO",
-    "COUNT(MRUN)": 2967,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "LANCO",
+    "MATRICULA": 2967,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "LOS LAGOS",
-    "COUNT(MRUN)": 3178,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "LOS LAGOS",
+    "MATRICULA": 3178,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "MAFIL",
-    "COUNT(MRUN)": 1167,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "MAFIL",
+    "MATRICULA": 1167,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "MARIQUINA",
-    "COUNT(MRUN)": 4071,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "MARIQUINA",
+    "MATRICULA": 4071,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "PAILLACO",
-    "COUNT(MRUN)": 3638,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "PAILLACO",
+    "MATRICULA": 3638,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "PANGUIPULLI",
-    "COUNT(MRUN)": 6689,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "PANGUIPULLI",
+    "MATRICULA": 6689,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "LA UNION",
-    "COUNT(MRUN)": 7155,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "LA UNION",
+    "MATRICULA": 7155,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "FUTRONO",
-    "COUNT(MRUN)": 2979,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "FUTRONO",
+    "MATRICULA": 2979,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "LAGO RANCO",
-    "COUNT(MRUN)": 1539,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "LAGO RANCO",
+    "MATRICULA": 1539,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "RIO BUENO",
-    "COUNT(MRUN)": 4798,
-    "COD_REG_RBD": "Región 14"
+    "COMUNA": "RIO BUENO",
+    "MATRICULA": 4798,
+    "REGION": "Región Región 14"
   },
   {
-    "NOM_COM_RBD": "ARICA",
-    "COUNT(MRUN)": 40792,
-    "COD_REG_RBD": "Región 15"
+    "COMUNA": "ARICA",
+    "MATRICULA": 40792,
+    "REGION": "Región Región 15"
   },
   {
-    "NOM_COM_RBD": "CAMARONES",
-    "COUNT(MRUN)": 99,
-    "COD_REG_RBD": "Región 15"
+    "COMUNA": "CAMARONES",
+    "MATRICULA": 99,
+    "REGION": "Región Región 15"
   },
   {
-    "NOM_COM_RBD": "PUTRE",
-    "COUNT(MRUN)": 235,
-    "COD_REG_RBD": "Región 15"
+    "COMUNA": "PUTRE",
+    "MATRICULA": 235,
+    "REGION": "Región Región 15"
   },
   {
-    "NOM_COM_RBD": "GENERAL LAGOS",
-    "COUNT(MRUN)": 50,
-    "COD_REG_RBD": "Región 15"
+    "COMUNA": "GENERAL LAGOS",
+    "MATRICULA": 50,
+    "REGION": "Región Región 15"
   }
-]
+] 
 
   var visualization = d3plus.viz()
     .container("#viz")
     .data(sample_data)
     .type("tree_map")
-    .id(["COD_REG_RBD","NOM_COM_RBD"])
-    .size("COUNT(MRUN)")
+    .id(["REGION","COMUNA"])
+    .size("MATRICULA")
     .draw()
 </script>
 
