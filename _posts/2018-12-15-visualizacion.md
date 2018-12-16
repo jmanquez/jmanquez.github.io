@@ -18,7 +18,7 @@ d3.json({{site.data.matricula | jsonify}}, function(data) {
 function make_viz(data){
   var visualization = d3plus.viz()
     .container("#viz")
-    .data(matricula)
+    .data(data)
     .type("tree_map")
     .id(["REGION","COMUNA"])
     .size("MATRICULA")
