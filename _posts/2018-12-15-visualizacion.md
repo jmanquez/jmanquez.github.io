@@ -47,7 +47,7 @@ var links = [
 
 
 var visualization = d3plus.viz()
-    .container("#viz")
+    .container("#viz2")
     .edges({
       "strength": "strength",
       "value": links
