@@ -32,62 +32,62 @@
    "links" : [
       {
          "source" : 0,
-         "value" : 0.342284047256003,
+         "value" : 844,
          "target" : 3
       },
       {
          "source" : 0,
-         "value" : 0.32322870366987,
+         "value" : 3086,
          "target" : 4
       },
       {
          "source" : 0,
-         "value" : 0.177682517071359,
+         "value" : 1344,
          "target" : 5
       },
       {
          "source" : 0,
-         "value" : 0.00433076373512774,
+         "value" : 430,
          "target" : 6
       },
     {
        "source" : 1,
-       "value" : 0.342284047256003,
+       "value" : 925,
        "target" : 3
     },
     {
        "source" : 1,
-       "value" : 0.32322870366987,
+       "value" : 2793,
        "target" : 4
     },
     {
        "source" : 1,
-       "value" : 0.177682517071359,
+       "value" : 1374,
        "target" : 5
     },
     {
        "source" : 1,
-       "value" : 0.00433076373512774,
+       "value" : 616,
        "target" : 6
     },
     {
        "source" : 2,
-       "value" : 0.342284047256003,
+       "value" : 898,
        "target" : 3
     },
     {
        "source" : 2,
-       "value" : 0.32322870366987,
+       "value" : 2785,
        "target" : 4
     },
     {
        "source" : 2,
-       "value" : 0.177682517071359,
+       "value" : 1415,
        "target" : 5
     },
     {
        "source" : 2,
-       "value" : 0.00433076373512774,
+       "value" : 633,
        "target" : 6
     }
    ]
