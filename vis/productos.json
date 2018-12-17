@@ -2,15 +2,15 @@
    "nodes" : [
       {
          "name" : "2018",
-         "id" : "cd_2018"
+         "id" : "cd_2018_score"
       },
       {
          "name" : "2017",
-         "id" : "cd_2017"
+         "id" : "cd_2017_score"
       },
       {
          "name" : "2016",
-         "id" : "cd_2016"
+         "id" : "cd_2016_score"
       },
       {
          "name" : "Alto",
