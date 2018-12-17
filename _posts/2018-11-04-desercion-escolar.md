@@ -3,12 +3,6 @@ layout: post
 title: "Deserción Escolar"
 author: "Jaime"
 ---
-En Chile la educación ha sufrido una serie de reformas con el fin mejorar la cobertura (matrícula) y de asegurar una educación de calidad. Una de estas reformas tiene relación con el derecho de todos los individuos de completar la enseñanza media, decretándose obligatoria y gratuita en el año 2013. Esto implica que se debe asegurar una educación inclusiva y de calidad, promoviendo que se den las condiciones necesarias para el acceso y permanencia en el sistema educativo.
-
-Sin embargo, aún se tiene una gran cantidad de estudiantes desertando del sistema escolar, según cifras del MINEDUC la tasa de deserción regular para el año 2017, que considera la educación de niñas, niños y jóvenes registro un 2,5% equivalente a 74.105 estudiantes fuera del sistema escolar.
-
-La idea es mostrar la forma del cálculo de este indicador y algunas cifras descriptivas del fenómeno de la deserción en Chile.
-
 ### El indicador de deserción
 
 El MINEDUC utiliza dos medidas para calcular la deserción, la tasa de incidencia y de prevalencia, estas dos medidas consideran dos indicadores cada una, la deserción regular (niños, niñas y jóvenes) y otra que mide la deserción global (incluye la educación para adultos). Para al cálculo del indicador se escogió la tasa de incidencia de sistema regular [@MINEDUC2013].
