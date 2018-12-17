@@ -34,6 +34,7 @@
     </style>
   </head>
   <body>
+    <h3>Ejemplo #2 Datos de Categoría de Desempeño y Diagrama Sankey</h3>
     <div id="chart"></div>
 
     <script>
@@ -42,7 +43,7 @@
             'cd_2017':              '#367d85',
             'cd_2016':              '#97ba4c'
           };
-      d3.json("productos.json", function(error, json) {
+      d3.json("cdb.json", function(error, json) {
         var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
         chart
           .name(label)
