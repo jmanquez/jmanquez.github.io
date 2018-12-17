@@ -30,43 +30,39 @@ Categorias de Desempeño y Diagramas Sankey...
 
 <script>
   var nodes = [
-    /*grupos*/
+
     {"id": "2018"},
     {"id": "2017"},
     {"id": "2016"},
-    /*conceptos*/
+
     {"id": "Alto"},
     {"id": "Medio"},
     {"id": "Medio-Bajo"},
     {"id": "Insuficiente"}
   ];
-  var edges = [
-    /*grupos*/
-    {"strenght": 90,  "source": 0, "target": 3},
-    {"strenght": 50,  "source": 0, "target": 4},
-    {"strenght": 50,  "source": 0, "target": 5},
-    {"strenght": 30,  "source": 0, "target": 6},
-    /*conceptos*/
-    {"strenght": 88,  "source": 1, "target": 3},
-    {"strenght": 50,  "source": 1, "target": 4},
-    {"strenght": 23,  "source": 1, "target": 5},
-    {"strenght": 99,  "source": 1, "target": 6},
+  var links = [
 
-    /*conceptos*/
-    {"strenght": 48,  "source": 2, "target": 3},
-    {"strenght": 20,  "source": 2, "target": 4},
-    {"strenght": 43,  "source": 2, "target": 5},
-    {"strenght": 69,  "source": 2, "target": 6}
+    {"value": 90,  "source": 0, "target": 3},
+    {"value": 50,  "source": 0, "target": 4},
+    {"value": 50,  "source": 0, "target": 5},
+    {"value": 30,  "source": 0, "target": 6},
+
+    {"value": 88,  "source": 1, "target": 3},
+    {"value": 50,  "source": 1, "target": 4},
+    {"value": 23,  "source": 1, "target": 5},
+    {"value": 99,  "source": 1, "target": 6},
+
+
+    {"value": 48,  "source": 2, "target": 3},
+    {"value": 20,  "source": 2, "target": 4},
+    {"value": 43,  "source": 2, "target": 5},
+    {"value": 69,  "source": 2, "target": 6}
   ];
   var visualization = d3plus.viz()
     .container("#viz2")
     .edges({
       "strength": "strength",
-      "value": edges
-    })
-    .focus({
-      "tooltip": false,
-      "value": "2018"
+      "value": links
     })
     .id("id")
     .nodes(nodes)
