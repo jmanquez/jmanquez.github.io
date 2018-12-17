@@ -31,7 +31,6 @@ Categorias de Desempeño y Diagramas Sankey...
 <script>
   var nodes = [
     /*grupos*/
-    {"id": "Categorías de Desempeño"},
     {"id": "2018"},
     {"id": "2017"},
     {"id": "2016"},
@@ -43,21 +42,21 @@ Categorias de Desempeño y Diagramas Sankey...
   ];
   var edges = [
     /*grupos*/
-    {"strenght": 90,  "source": 0, "target": 4},
+    {"strenght": 90,  "source": 0, "target": 3},
+    {"strenght": 50,  "source": 0, "target": 4},
     {"strenght": 50,  "source": 0, "target": 5},
-    {"strenght": 50,  "source": 0, "target": 6},
-    {"strenght": 30,  "source": 0, "target": 7},
+    {"strenght": 30,  "source": 0, "target": 6},
     /*conceptos*/
-    {"strenght": 88,  "source": 1, "target": 4},
-    {"strenght": 50,  "source": 1, "target": 5},
-    {"strenght": 23,  "source": 1, "target": 6},
-    {"strenght": 99,  "source": 1, "target": 7},
+    {"strenght": 88,  "source": 1, "target": 3},
+    {"strenght": 50,  "source": 1, "target": 4},
+    {"strenght": 23,  "source": 1, "target": 5},
+    {"strenght": 99,  "source": 1, "target": 6},
 
     /*conceptos*/
-    {"strenght": 48,  "source": 2, "target": 4},
-    {"strenght": 20,  "source": 2, "target": 5},
-    {"strenght": 43,  "source": 2, "target": 6},
-    {"strenght": 69,  "source": 2, "target": 7}
+    {"strenght": 48,  "source": 2, "target": 3},
+    {"strenght": 20,  "source": 2, "target": 4},
+    {"strenght": 43,  "source": 2, "target": 5},
+    {"strenght": 69,  "source": 2, "target": 6}
   ];
   var visualization = d3plus.viz()
     .container("#viz2")
@@ -67,7 +66,7 @@ Categorias de Desempeño y Diagramas Sankey...
     })
     .focus({
       "tooltip": false,
-      "value": "Categorías de Desempeño"
+      "value": "2018"
     })
     .id("id")
     .nodes(nodes)
