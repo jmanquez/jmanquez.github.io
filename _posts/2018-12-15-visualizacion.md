@@ -3,7 +3,9 @@ layout: post
 title: "Visualización de datos en Educación"
 author: "Jaime"
 ---
-Visualizaciones utilizando datos abiertos del [MINEDUC](http://datosabiertos.mineduc.cl/) y de la [Agencia de Calidad de la Educación](http://informacionestadistica.agenciaeducacion.cl/#/bases). Para estas visualización se probaron las librerías JavaScript [D3](https://d3js.org/) y [D3plus](https://d3plus.org/).
+Visualizaciones de datos abiertos del [MINEDUC](http://datosabiertos.mineduc.cl/) y de la [Agencia de Calidad de la Educación](http://informacionestadistica.agenciaeducacion.cl/#/bases).
+
+Se utilizaron las librerías JavaScript [D3](https://d3js.org/) y [D3plus](https://d3plus.org/).
 
 ### Matrícula escolar con Tree Map
 En el primer ejemplo se presenta un gráfico jerárquico [TreeMap](https://en.wikipedia.org/wiki/Treemapping)
