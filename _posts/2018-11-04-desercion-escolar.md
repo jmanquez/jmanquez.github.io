@@ -3,6 +3,8 @@ layout: post
 title: "Deserción Escolar"
 author: "Jaime"
 ---
+### Bases de datos
+La cuantificación de la deserción escolar en Chile fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en aquí, las bases de datos utilizadas son las de matrícula y rendimiento descargadas del portal de datos abiertos del MINEDUC. Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente.
 ### El indicador de deserción
 
 El MINEDUC utiliza dos medidas para calcular la deserción, la tasa de incidencia y de prevalencia, estas dos medidas consideran dos indicadores cada una, la deserción regular (niños, niñas y jóvenes) y otra que mide la deserción global (incluye la educación para adultos). Para al cálculo del indicador se escogió la tasa de incidencia de sistema regular [@MINEDUC2013].
