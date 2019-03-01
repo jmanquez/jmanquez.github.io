@@ -4,9 +4,10 @@ title: "Deserción Escolar"
 author: "Jaime"
 ---
 ### Deserción Chile
-La deserción fue calculada según la metodología propuesta por el [MINEDUC en el documento publicado en el 2013](https://centroestudios.mineduc.cl/wp-content/uploads/sites/100/2017/06/A2N15_Desercion_escolar.pdf) en al cual se cambia la formula de cálculo dejando de utilizar la matrícula teórica.
+La deserción fue calculada según la metodología propuesta por el [MINEDUC en el documento publicado en el 2013](https://centroestudios.mineduc.cl/wp-content/uploads/sites/100/2017/06/A2N15_Desercion_escolar.pdf) se cambia la formula de cálculo dejando de utilizar la matrícula teórica.
 
-Se cuantifica la deserción escolar en Chile y sus diferentes formas de visualizarlo. Esta cuantificación fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en [aquí](https://github.com/jmanquez/DESERCION), las bases de datos utilizadas son las de matrícula y rendimiento descargadas del portal de datos abiertos del MINEDUC. Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente. Las bases de datos utilizadas fueron de matrícula y rendimiento disponible en el portal de [Centro de Estudios del MINEDUC]( http://datosabiertos.mineduc.cl/)
+Se cuantifica la deserción escolar en Chile y sus diferentes formas de visualizarlo. Esta cuantificación fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en [aquí](https://github.com/jmanquez/DESERCION). Las bases de datos utilizadas fueron de matrícula y rendimiento disponible en el portal de [Centro de Estudios del MINEDUC](http://datosabiertos.mineduc.cl/). Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente.
+
 
 
 ### La deserción del sistema regular como incidencia
