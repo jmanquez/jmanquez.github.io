@@ -3,14 +3,14 @@ layout: post
 title: "Deserción Escolar"
 author: "Jaime"
 ---
-### Bases de datos
-La cuantificación de la deserción escolar en Chile fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en aquí, las bases de datos utilizadas son las de matrícula y rendimiento descargadas del portal de datos abiertos del MINEDUC. Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente.
+### Deserción Chile
+La deserción fue calculada según la metodología propuesta por el [MINEDUC en el documento publicado en el 2013](https://centroestudios.mineduc.cl/wp-content/uploads/sites/100/2017/06/A2N15_Desercion_escolar.pdf) en al cual se cambia la formula de cálculo dejando de utilizar la matrícula teórica.
 
-### El indicador de deserción
+Se cuantifica la deserción escolar en Chile y sus diferentes formas de visualizarlo. Esta cuantificación fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en [aquí](https://github.com/jmanquez/DESERCION), las bases de datos utilizadas son las de matrícula y rendimiento descargadas del portal de datos abiertos del MINEDUC. Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente. Las bases de datos utilizadas fueron de matrícula y rendimiento disponible en el portal de [Centro de Estudios del MINEDUC]( http://datosabiertos.mineduc.cl/)
 
-El MINEDUC utiliza dos medidas para calcular la deserción, la tasa de incidencia y de prevalencia, estas dos medidas consideran dos indicadores cada una, la deserción regular (niños, niñas y jóvenes) y otra que mide la deserción global (incluye la educación para adultos). Para al cálculo del indicador se escogió la tasa de incidencia de sistema regular [@MINEDUC2013].
 
-**La tasa de incidencia**: Mide la deserción evaluando la transición de un año a otro, es decir, si presenta matrícula en el año 2016 y no aparece en los registros de matrícula el 2017 (y que no se graduó) se considera desertor.
+### La deserción del sistema regular como incidencia
+La tasa de incidencia de la deserción busca medir la deserción escolar evaluando la transición entre un año y otro de los estudiantes. Así́, se considerará desertor al niño o joven que no retorna al sistema escolar luego de haber estado matriculado en el periodo académico anterior, sin que durante este periodo se hayan graduado del sistema escolar. La deserción del sistema regular, considera a los estudiantes que se salieron del sistema escolar de niños y jóvenes, aun cuando hayan continuado sus estudios en el sistema de adultos.
 
 Formula:
 
