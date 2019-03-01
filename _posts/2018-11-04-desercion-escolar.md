@@ -8,10 +8,8 @@ La deserción fue calculada según la metodología propuesta por el [MINEDUC en 
 
 Se cuantifica la deserción escolar en Chile y sus diferentes formas de visualizarlo. Esta cuantificación fue realizada bajo distintos enfoques que permitieran tener una visión general y en detalle. El código está disponible en [aquí](https://github.com/jmanquez/DESERCION). Las bases de datos utilizadas fueron de matrícula y rendimiento disponible en el portal de [Centro de Estudios del MINEDUC](http://datosabiertos.mineduc.cl/). Se cálculo la deserción para tres cohortes 2004, 2005 y 2006, con sus estudiantes graduados en el 2016, 2017 y 2018 respectivamente.
 
-
-
 ### La deserción del sistema regular como incidencia
-La tasa de incidencia de la deserción busca medir la deserción escolar evaluando la transición entre un año y otro de los estudiantes. Así́, se considerará desertor al niño o joven que no retorna al sistema escolar luego de haber estado matriculado en el periodo académico anterior, sin que durante este periodo se hayan graduado del sistema escolar. La deserción del sistema regular, considera a los estudiantes que se salieron del sistema escolar de niños y jóvenes, aun cuando hayan continuado sus estudios en el sistema de adultos.
+La tasa de incidencia de la deserción busca medir la deserción escolar evaluando la transición entre un año y otro de los estudiantes. Así, se considerará desertor al niño o joven que no retorna al sistema escolar luego de haber estado matriculado en el periodo académico anterior, sin que durante este periodo se hayan graduado del sistema escolar. La deserción del sistema regular, considera a los estudiantes que se salieron del sistema escolar de niños y jóvenes, aun cuando hayan continuado sus estudios en el sistema de adultos.
 
 Formula:
 
