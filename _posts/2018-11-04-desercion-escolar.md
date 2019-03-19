@@ -31,7 +31,7 @@ La tasa de deserción medida como incidencia queda expresada:
 
 Donde:
 
-\\(M_{j}^j\\), corresponde a la matrícula efectiva en el periodo \\(t\\) y grado \\(j\\).
+\\(M_{t}^j\\), corresponde a la matrícula efectiva en el periodo \\(t\\) y grado \\(j\\).
 
 \\(TDI_{t}^j\\), corresponde a la tasa de deserción medida como incidencia del periodo \\(t\\) y grado \\(j\\).
 
